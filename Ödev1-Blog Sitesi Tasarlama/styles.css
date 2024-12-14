@@ -1,0 +1,49 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav .nav-link {
+    font-size: 1rem;
+}
+
+/* Jumbotron */
+.jumbotron {
+    margin-bottom: 2rem;
+}
+
+/* Card */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Footer */
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
